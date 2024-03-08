@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44965f79-1bd1-417c-a971-6d96de35cb19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SuperMario_pygame_training.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BGobject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoinDebris.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DebugTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fonts/emulogic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario1_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario1_end1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario1_jump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario1_move0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario1_move1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario1_move2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario1_st.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2_end1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2_jump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2_move0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2_move1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2_move2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2_st.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2s.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2s_end.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2s_end1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2s_jump.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2s_move0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2s_move1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2s_move2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario2s_st.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_end.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_end1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_jump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_lvlup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_move0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_move1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_move2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s0_death.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s0_end.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s0_end1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s0_jump.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s0_move0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s0_move1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s0_move2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s0_st.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s1_death.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s1_end.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s1_end1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s1_jump.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s1_move0.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s1_move1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s1_move2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_s1_st.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/Mario/mario_st.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/block_debris0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/block_debris1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/coin_an0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/coin_an1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/coin_an2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/coin_an3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/fireball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/firework0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/firework1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/firework2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/flag_pillar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/flower0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/flower1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/flower2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/flower3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/goombas_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/goombas_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/goombas_dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/gr_cl_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/gr_cl_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/koopa_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/koopa_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/koopa_dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/mountain_tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/mushroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/super_mario_bros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/images/tube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/blockbreak.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/blockhit.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/coin.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/death.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/fireball.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/gameover.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/jump.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/jumpbig.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/kill_mob.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/levelend.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/mushroomappear.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/mushroomeat.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/overworld-fast.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/overworld.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/pipe.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/scorering.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sounds/sounds/shot.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worlds/worlds/1-1/W11.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worlds/worlds/1-1/tiles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/worlds/worlds/1-1/tiles.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2dH7iWL93m5HH203qeDXfsvoqeE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ayann/PycharmProjects/SuperMario_pygame_training/worlds"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ayann\PycharmProjects\SuperMario_pygame_training\worlds" />
+      <recent name="C:\Users\ayann\PycharmProjects\SuperMario_pygame_training\sounds" />
+      <recent name="C:\Users\ayann\PycharmProjects\SuperMario_pygame_training\images" />
+      <recent name="C:\Users\ayann\PycharmProjects\SuperMario_pygame_training\Fonts" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44965f79-1bd1-417c-a971-6d96de35cb19" name="Changes" comment="" />
+      <created>1709653279928</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709653279928</updated>
+    </task>
+    <servers />
+  </component>
+</project>
