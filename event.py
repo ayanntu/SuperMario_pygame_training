@@ -90,3 +90,31 @@ class Event(object):
                         core.get_map().get_player().set_image(5)
                         core.get_map().flag.move_flag_down()
                         core.get_map().get_player().flag_animation_move(core, False)
+                else:
+                    self.tick += 1
+                    if self.tick == 1:
+                        core.get_map().get_player().direction = False
+                        core.get_map().get_player().set_image(6)
+                        core.get_map().get_player().rect.x += 20
+                    elif self.tick >= 30:
+                        core.get_map().get_player().flag_animation_move(core,True)
+                        core.get_map().get_player().update_image(core)
+
+                    else:
+                        if core.get_map().time > 0:
+                            self.score_tick += 1
+                            if self.score_tick%10 == 0:
+                                core.get_sound().play('scorering', 0, 0.5)
+
+                            core.get_map().time -= 1
+                            core.get_map().get_player().add_score(50)
+
+                        else:
+                            if self.time == 0:
+                                self.time = pg.time.get_ticks()
+
+                            elif pg.time.get_ticks() > = self.time + self.delay:
+                                core.get_mm().currentGameState = 'Loading'
+                                core.get_mm().oLoadingMenu.set_text_and_type('BY S&D :)', False)
+                                core.get_mm().oLoadingMenu.update_time()
+                                core.get_sound().play('game_over', 0, 0.5)
